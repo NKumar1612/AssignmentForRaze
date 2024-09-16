@@ -6,9 +6,9 @@ prerequisites:
 - Use react 18 or above
 
 ## Setup: 
-- ## To install all of the missing required files:
+- To install all of the missing required files:
 `npm i`
-- ## To run the react application:
+- To run the react application:
 `npm run dev`
 
 
