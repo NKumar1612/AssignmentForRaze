@@ -1,6 +1,4 @@
-# Assignment for Raze
-
-# Steps to Follow
+# Steps to follow
 
 prerequisites: 
 - Node.js (version 20 and above),
