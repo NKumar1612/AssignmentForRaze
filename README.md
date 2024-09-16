@@ -1,14 +1,14 @@
 # Steps to follow
 
 prerequisites: 
-- Node.js (version 20 and above),
+1. Node.js (version 20 and above):
 `npm ci` 
-- Use react 18 or above
+2. Use react 18 or above
 
 ## Setup: 
-To install all of the missing required files:
+1. To install all of the missing required files:
 `npm i`
-To run the react application:
+2. To run the react application:
 `npm run dev`
 
 
