@@ -3,15 +3,18 @@ import AboutRaze from './sub-section/AboutRaze'
 import RequestDescription from './sub-section/RequestDescription';
 import CompanyDetails from './sub-section/CompanyDetails';
 import HeaderDivider from '../component/HeaderDivider';
-import { Divider } from 'antd';
+import { Row, Col } from 'antd';
 
 const QuotationRequest = () => {
   return (
     <main>
       <HeaderDivider/>
-      <AboutRaze/>
-      <RequestDescription/>
-      <CompanyDetails/>
+      <AboutRaze/> 
+      <Col style={{ maxWidth: '900px', width: '100%' }}> 
+        <RequestDescription/>
+        <CompanyDetails/>
+      </Col>
+
     </main>
   )
 }

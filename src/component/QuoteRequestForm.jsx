@@ -65,7 +65,7 @@ function QuoteRequestForm() {
 
       <Form.Item>
         <Space>
-          <Button type="primary" htmlType="submit">
+          <Button type="primary" htmlType="submit" style={{backgroundColor: "#3a00d9"}}>
             Submit Quote
           </Button>
         </Space>

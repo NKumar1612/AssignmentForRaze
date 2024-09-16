@@ -86,7 +86,7 @@ const ResponseForm = () => {
             <Checkbox>Send a copy of my quoted response on my mail</Checkbox>
           </Col>
           <Col>
-            <Button type="primary" htmlType="submit" style={{ width: '150px' }}>
+            <Button type="primary" htmlType="submit" style={{ width: '150px', backgroundColor: '#3a00d9' }}>
               Submit
             </Button>
           </Col>
