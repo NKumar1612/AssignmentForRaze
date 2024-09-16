@@ -11,7 +11,7 @@ const AboutRaze = () => {
       <RequestSummaryCard/>
     </Col>
     <Col span={18} pull={6}>
-      <Title level={3} style={{ color: '#4800ff'}}>About Raze</Title>
+      <Title level={3} style={{ color: '#3a00d9'}}>About Raze</Title>
       <Text>
         Maecenas diam velit, tincidunt vitae vulputate a, efficitur ac felis. 
         Cras pellentesque at justo et malesuada. Orci varius natoque penatibus 

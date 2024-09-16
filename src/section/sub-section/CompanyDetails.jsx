@@ -8,7 +8,7 @@ const { Title, Text } = Typography;
 const CompanyDetails = () => {
   return (
     <div>
-      <Title level={3} style={{ color: '#4800ff' }}>Company Details</Title>
+      <Title level={3} style={{ color: '#3a00d9' }}>Company Details</Title>
       <Text>
         Essae Teraoka Private Limited is a lorem ipsum dolor sit amet, consectetur adipiscing elit, 
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
@@ -20,7 +20,7 @@ const CompanyDetails = () => {
           <Col span={8}>
             <Row align="middle" style={{ padding: '10px' }}>
               <Col flex="none">
-                <Avatar size={64} icon={<DesktopOutlined />} style={{ backgroundColor: '#f0f5ff', color: '#4800ff' }} />
+                <Avatar size={64} icon={<DesktopOutlined />} style={{ backgroundColor: '#f5f5f5', color: '#3a00d9' }} />
               </Col>
               <Col flex="auto" style={{ paddingLeft: '10px' }}>
                 <Text>Business Category</Text>
@@ -33,7 +33,7 @@ const CompanyDetails = () => {
           <Col span={8}>
             <Row align="middle" style={{ padding: '10px' }}>
               <Col flex="none">
-                <Avatar size={64} icon={<CalendarOutlined />} style={{ backgroundColor: '#f0f5ff', color: '#4800ff' }} />
+                <Avatar size={64} icon={<CalendarOutlined />} style={{ backgroundColor: '#f5f5f5', color: '#3a00d9' }} />
               </Col>
               <Col flex="auto" style={{ paddingLeft: '10px' }}>
                 <Text>Establishment</Text>
@@ -46,7 +46,7 @@ const CompanyDetails = () => {
           <Col span={8}>
             <Row align="middle" style={{ padding: '10px' }}>
               <Col flex="none">
-                <Avatar size={64} icon={<AppstoreOutlined />} style={{ backgroundColor: '#f0f5ff', color: '#4800ff' }} />
+                <Avatar size={64} icon={<AppstoreOutlined />} style={{ backgroundColor: '#f5f5f5', color: '#3a00d9' }} />
               </Col>
               <Col flex="auto" style={{ paddingLeft: '10px' }}>
                 <Text>Company Type</Text>
@@ -62,7 +62,7 @@ const CompanyDetails = () => {
           <Col span={8}>
             <Row align="middle" style={{ padding: '10px' }}>
               <Col flex="none">
-                <Avatar size={64} icon={<UsergroupAddOutlined />} style={{ backgroundColor: '#f0f5ff', color: '#4800ff' }} />
+                <Avatar size={64} icon={<UsergroupAddOutlined />} style={{ backgroundColor: '#f5f5f5', color: '#3a00d9' }} />
               </Col>
               <Col flex="auto" style={{ paddingLeft: '10px' }}>
                 <Text>Total Strength</Text>
@@ -75,7 +75,7 @@ const CompanyDetails = () => {
           <Col span={8}>
             <Row align="middle" style={{ padding: '10px' }}>
               <Col flex="none">
-                <Avatar size={64} icon={<SafetyOutlined />} style={{ backgroundColor: '#f0f5ff', color: '#4800ff' }} />
+                <Avatar size={64} icon={<SafetyOutlined />} style={{ backgroundColor: '#f5f5f5', color: '#3a00d9' }} />
               </Col>
               <Col flex="auto" style={{ paddingLeft: '10px' }}>
                 <Text>GSTIN</Text>
@@ -88,7 +88,7 @@ const CompanyDetails = () => {
           <Col span={8}>
             <Row align="middle" style={{ padding: '10px' }}>
               <Col flex="none">
-                <Avatar size={64} icon={<BankOutlined />} style={{ backgroundColor: '#f0f5ff', color: '#4800ff' }} />
+                <Avatar size={64} icon={<BankOutlined />} style={{ backgroundColor: '#f5f5f5', color: '#3a00d9' }} />
               </Col>
               <Col flex="auto" style={{ paddingLeft: '10px' }}>
                 <Text>Revenue in range</Text>
@@ -101,7 +101,7 @@ const CompanyDetails = () => {
 
         {/* Add space below the icons */}
         <div style={{ marginTop: '20px', textAlign: 'center' }}>
-          <Button type="primary" size="large" style={{ backgroundColor: '#4800ff', borderColor: '#4800ff' }}>
+          <Button type="primary" size="large" style={{ backgroundColor: '#f5f5f5', borderColor: '#f5f5f5', color: '#3a00d9' }}>
             Contact Company
           </Button>
         </div>
