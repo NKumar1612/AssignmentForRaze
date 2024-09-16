@@ -1,5 +1,5 @@
 # Steps to follow
-## prerequisites: 
+## Prerequisites: 
 - Node.js (version 20 and above):
 `npm ci` 
 - Use react 18 or above
