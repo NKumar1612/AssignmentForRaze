@@ -1,7 +1,7 @@
 import React from 'react';
 import { Form, Input, DatePicker, InputNumber, Button, Table, Space } from 'antd';
 
-function QuoteRequestForm() {
+function RequestForm() {
   const [form] = Form.useForm();
 
   const onFinish = (values) => {
@@ -74,4 +74,4 @@ function QuoteRequestForm() {
   );
 }
 
-export default QuoteRequestForm;
+export default RequestForm;
