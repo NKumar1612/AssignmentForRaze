@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typography } from 'antd';
-import QuoteRequestForm from '../../component/RequestForm';
+import RequestForm from '../../component/RequestForm';
 
 const {Title, Text} = Typography;
 
