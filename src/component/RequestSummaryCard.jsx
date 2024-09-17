@@ -5,7 +5,7 @@ const { Title, Text } = Typography;
 
 const RequestSummaryCard = () => {
   return (
-    <Card style={{ maxWidth: '400px', margin: '10px auto', borderRadius: '8px', padding: '10px', backgroundColor: '#fafafa' }}>
+    <Card style={{ maxWidth: '400px', margin: '20px auto', borderRadius: '8px', padding: '10px', backgroundColor: '#fafafa' }}>
       {/* Title */}
       <Title level={4} style={{ marginTop: '10px',marginBottom: '20px', textAlign: 'center' }}>
         Request Summary
