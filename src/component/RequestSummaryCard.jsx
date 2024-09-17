@@ -1,46 +1,38 @@
 import React from 'react';
-import { Card, Typography, Row, Col, Button } from 'antd';
+import { Card, Typography, Button } from 'antd';
 
 const { Title, Text } = Typography;
 
 const RequestSummaryCard = () => {
   return (
-    <Card style={{ maxWidth: 400, margin: 'auto', borderRadius: 8 }}>
+    <Card style={{ maxWidth: '400px', margin: '10px auto', borderRadius: '8px', padding: '10px', backgroundColor: '#fafafa' }}>
       {/* Title */}
-      <Title level={4} style={{ marginBottom: 20 }}>
+      <Title level={4} style={{ marginTop: '5px',marginBottom: '20px', textAlign: 'center' }}>
         Request Summary
       </Title>
 
-      {/* Content */}
-      <Row style={{ marginBottom: 10 }}>
-        <Col span={8}>
-          <Text strong>Items:</Text>
-        </Col>
-        <Col span={16}>
-          <Text>Laptop, Mouse, Printing Ink</Text>
-        </Col>
-      </Row>
+      {/* Content using Flexbox */}
+      <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '10px' }}>
+        <Text strong>Items:</Text>
+        <Text>Laptop, Mouse, Printing Ink</Text>
+      </div>
 
-      <Row style={{ marginBottom: 10 }}>
-        <Col span={8}>
-          <Text strong>Supply date:</Text>
-        </Col>
-        <Col span={16}>
-          <Text>10th November 2023</Text>
-        </Col>
-      </Row>
+      <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '10px' }}>
+        <Text strong>Supply date:</Text>
+        <Text>10th November 2023</Text>
+      </div>
 
-      <Row style={{ marginBottom: 20 }}>
-        <Col span={8}>
-          <Text strong>Total budget range:</Text>
-        </Col>
-        <Col span={16}>
-          <Text>₹3,50,000 - ₹5,00,000</Text>
-        </Col>
-      </Row>
+      <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '20px' }}>
+        <Text strong>Total budget range:</Text>
+        <Text>₹3,50,000 - ₹5,00,000</Text>
+      </div>
 
-      {/* Button */}
-      <Button type="primary" block style={{ backgroundColor: '#3a00d9', borderColor: '#3a00d9' }}>
+      {/* Submit Button */}
+      <Button 
+        type="primary" 
+        block 
+        style={{ backgroundColor: '#3a00d9', borderColor: '#3a00d9', fontSize: '16px', marginTop: '20px' }}
+      >
         Submit Quote
       </Button>
     </Card>
@@ -48,3 +40,4 @@ const RequestSummaryCard = () => {
 };
 
 export default RequestSummaryCard;
+
